@@ -1,0 +1,97 @@
+/* Reset some default styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h1 small {
+    font-size: 14px;
+    font-style: italic;
+    color: #666;
+  }
+  
+  /* Form container styles */
+  .contact-wrap {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Form styles */
+  .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-sm-6, .col-sm-12 {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .input-block {
+    margin-bottom: 20px;
+    background-color: #f9f9f9; /* Background color for input blocks */
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: calc(100% - 30px); /* Adjusted width to account for padding */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  textarea.form-control {
+    height: 100px; /* Adjust as needed */
+  }
+  
+  .square-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .square-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Background image for textarea block */
+  .textarea {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white; /* Text color for contrast */
+  }
+  
